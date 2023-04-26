@@ -1,0 +1,35 @@
+@import './root.css';
+
+.btn-cta {
+    cursor: pointer;
+    background-color: var(--light-blue);
+    padding: 15px;
+    width: 10rem;
+    color: var(--blue-white);
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    opacity: 0.8;
+}
+
+.btn-cta:hover {
+    opacity: 1.0;
+    transform: scale(1.1);
+}
+
+.btn-cta-outline {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 15px;
+    width: 10rem;
+    color: var(--blue-white);
+    border-radius: 10px;
+    margin: 5px;
+    border: 2px solid var(--blue-white);
+    opacity: 0.8;
+}
+
+.btn-cta-outline:hover {
+    opacity: 1.0;
+    transform: scale(1.1);
+}

@@ -1,0 +1,95 @@
+@import './root.css';
+
+* {
+    text-align: center;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-family: var(--font-family);
+    font-weight: 900;
+    color: var(--green-white);
+    padding-bottom: 1rem;
+    text-align: start;
+}
+
+.sub-text,
+.nav-link-text {
+    font-size: 18px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    color: var(--blue-white);
+    padding: 5px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--dark-blue)
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-family: var(--font-family);
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+.plan-title p {
+    color: var(--dark-blue);
+}
+
+.card-item h2,
+p {
+    padding: 5px;
+}
+
+.card-title {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 18px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    color: var(--dark-blue);
+    padding: 5px;
+}
+
+.testimonial-text {
+    font-size: 2.25rem;
+    font-family: var(--font-family);
+    font-weight: 300;
+    color: var(--dark-blue);
+    width: 40rem;
+    margin: auto;
+    text-align: start;
+}
+
+.cta-hero-text {
+    font-size: 1.5rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--blue-white)
+}
+
+.cta-hero-sub-text {
+    font-size: 1rem;
+    font-family: var(--font-family);
+    font-weight: 300;
+    color: var(--blue-white)
+}
+
+.btn-text {
+    font-size: 1rem;
+    font-family: var(--font-family);
+    font-weight: 300;
+    color: var(--blue-white);
+}
+
+.fa-apple,
+.fa-google-play {
+    font-size: 1.5rem;
+}

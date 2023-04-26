@@ -1,0 +1,167 @@
+@media only screen and (max-width: 600px) {
+
+    /* For mobile: */
+    .hero-container {
+        position: relative;
+        top: 150px;
+        height: 130vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .hero-img {
+        margin-top: 8rem;
+    }
+
+    .nav-bar {
+        width: 15rem;
+    }
+
+    .plan {
+        margin-top: 6rem;
+    }
+
+    .card-group {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .card-item {
+        width: 80vw;
+        padding-bottom: 2rem;
+    }
+
+    .card-img-container {
+        width: 60vw;
+        margin: auto;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+        width: 25rem;
+    }
+
+    .cta-container {
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+
+    /* For tablet: */
+    .hero-container {
+        height: 90vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .hero-img {
+        margin-top: 10rem;
+    }
+
+    .nav-bar {
+        width: 15rem;
+    }
+
+    .plan {
+        margin-top: 6rem;
+    }
+
+    .card-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .card-item {
+        width: 40vw;
+        padding-bottom: 2rem;
+    }
+
+    .card-img-container {
+        width: 35vw;
+        margin: auto;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+        width: 25rem;
+    }
+
+    .cta-container {
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 769px) {
+
+    /* For bigger tablet: */
+    .hero-container {
+        height: 90vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .hero-img {
+        width: 80vw;
+        margin-top: 5rem;
+    }
+
+    .nav-bar {
+        width: 15rem;
+    }
+
+    .plan {
+        margin-top: 6rem;
+    }
+
+    .card-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .card-item {
+        width: 40vw;
+        padding-bottom: 2rem;
+    }
+
+    .card-img-container {
+        width: 35vw;
+        margin: auto;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+        width: 30rem;
+    }
+
+    .cta-container {
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+
+}
