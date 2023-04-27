@@ -1,0 +1,8 @@
+@import './root.css';
+
+/* footer */
+.footer {
+    background-color: var(--dark-blue);
+    line-height: 4rem;
+    color: var(--blue-white);
+}

@@ -1,6 +1,7 @@
 @media only screen and (max-width: 600px) {
 
     /* For mobile: */
+    /* home page  */
     .hero-container {
         position: relative;
         top: 150px;
@@ -52,11 +53,36 @@
         padding: 2rem;
     }
 
+    /* blog page  */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-top: 8rem;
+    }
+
+    .blog-container img {
+        width: 80%;
+    }
+
+    .search-bar-container {
+        width: 70%;
+    }
+
+    /* sign up page  */
+    .signup-form-container {
+        min-width: 350px;
+        height: 65vh;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 601px) {
 
     /* For tablet: */
+    /* home page  */
     .hero-container {
         height: 90vh;
         display: flex;
@@ -103,9 +129,33 @@
     .cta-container {
         height: 15rem;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         padding: 2rem;
+    }
+
+    /* blog page  */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-top: 8rem;
+    }
+
+    .blog-container img {
+        width: 80%;
+    }
+
+    .search-bar-container {
+        width: 70%;
+    }
+
+    /* sign up page  */
+    .signup-form-container {
+        height: 65vh;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
     }
 
 }
@@ -113,6 +163,7 @@
 @media only screen and (max-width: 1279px) and (min-width: 769px) {
 
     /* For bigger tablet: */
+    /* home page  */
     .hero-container {
         height: 90vh;
         display: flex;
@@ -159,9 +210,33 @@
     .cta-container {
         height: 15rem;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         padding: 2rem;
+    }
+
+    /* blog page  */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-top: 8rem;
+    }
+
+    .blog-container img {
+        width: 80%;
+    }
+
+    .search-bar-container {
+        width: 70%;
+    }
+
+    /* sign up page  */
+    .signup-form-container {
+        height: 65vh;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
     }
 
 }

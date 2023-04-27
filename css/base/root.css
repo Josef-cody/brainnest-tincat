@@ -2,13 +2,15 @@
 
 /* font-family: 'Roboto', sans-serif; */
 :root {
-    --font-family:'Roboto', sans-serif;
-    --fs-1:48px;
-    --fs-2:36px;
-    --fs-3:24px;
-    --fs-4:18px;
-    --blue-white:#E5E7EB;
-    --green-white:#F9FAF8;
-    --dark-blue:#1F2937;
-    --light-blue:#3882F6;
+    --font-family: 'Roboto', sans-serif;
+    --font-weight: 300;
+    --fs-1: 48px;
+    --fs-2: 36px;
+    --fs-3: 24px;
+    --fs-4: 18px;
+    --fs-5: 16px;
+    --blue-white: #E5E7EB;
+    --green-white: #F9FAF8;
+    --dark-blue: #1F2937;
+    --light-blue: #3882F6;
 }

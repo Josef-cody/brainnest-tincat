@@ -10,6 +10,7 @@
     border: none;
     margin: 5px;
     opacity: 0.8;
+    box-shadow: 1px 1px 10px var(--blue-white);
 }
 
 .btn-cta:hover {
@@ -27,6 +28,7 @@
     margin: 5px;
     border: 2px solid var(--blue-white);
     opacity: 0.8;
+    box-shadow: 1px 1px 10px var(--blue-white);
 }
 
 .btn-cta-outline:hover {

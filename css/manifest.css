@@ -1,5 +1,10 @@
-@import './button.css';
-@import './layout.css';
-@import './card.css';
-@import './typography.css';
-@import './responsive.css';
+@import './base/_reset.css';
+@import './base/_typography.css';
+@import './component/_button.css';
+@import './component/_card.css';
+@import './component/_nav.css';
+@import './component/_footer.css';
+@import './layout/_layout_blog_page.css';
+@import './layout/_layout_signup_page.css';
+@import './layout/_layout_home_page.css';
+@import './base/_responsive.css';

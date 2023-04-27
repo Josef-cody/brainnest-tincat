@@ -69,21 +69,21 @@ p {
 }
 
 .cta-hero-text {
-    font-size: 1.5rem;
+    font-size: var(--fs-3);
     font-family: var(--font-family);
     font-weight: 500;
     color: var(--blue-white)
 }
 
 .cta-hero-sub-text {
-    font-size: 1rem;
+    font-size: var(--fs-5);
     font-family: var(--font-family);
     font-weight: 300;
     color: var(--blue-white)
 }
 
 .btn-text {
-    font-size: 1rem;
+    font-size: var(--fs-5);
     font-family: var(--font-family);
     font-weight: 300;
     color: var(--blue-white);
