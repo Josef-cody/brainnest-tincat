@@ -1,3 +1,4 @@
+@import url('./base/root.css');
 @import './base/_reset.css';
 @import './base/_typography.css';
 @import './component/_button.css';
@@ -6,5 +7,5 @@
 @import './component/_footer.css';
 @import './layout/_layout_blog_page.css';
 @import './layout/_layout_signup_page.css';
-@import './layout/_layout_home_page.css';
+@import url('./layout/_layout_home_page.css');
 @import './base/_responsive.css';
