@@ -1,11 +1,10 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (orientation: portrait) {
 
     /* For mobile: */
     /* home page  */
     .hero-container {
         position: relative;
-        top: 150px;
-        height: 130vh;
+        height: 125vh;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-around;
@@ -13,7 +12,8 @@
     }
 
     .hero-img {
-        margin-top: 8rem;
+        margin-top: 10rem;
+        margin-bottom: -5rem;
     }
 
     .nav-bar {
@@ -79,7 +79,8 @@
     }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 601px) {
+
+@media only screen and (max-width: 768px) and (min-width: 601px) and (orientation: portrait) {
 
     /* For tablet: */
     /* home page  */
@@ -160,7 +161,7 @@
 
 }
 
-@media only screen and (max-width: 1279px) and (min-width: 769px) {
+@media only screen and (max-width: 1279px) and (min-width: 769px) and (orientation: portrait) {
 
     /* For bigger tablet: */
     /* home page  */
@@ -239,4 +240,41 @@
         border-bottom-right-radius: 50px;
     }
 
+}
+
+
+@media only screen and (max-width: 1280px) and (orientation: landscape) {
+    .hero-container {
+        position: relative;
+        top: 150px;
+        height: 160vh;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .card-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .hero-img {
+        margin-top: -5rem;
+        width: 80vw;
+    }
+
+    header {
+        height: 180vh;
+    }
+
+    .blog-header {
+        height: auto;
+    }
+
+    .signup-header {
+        height: auto;
+    }
 }
