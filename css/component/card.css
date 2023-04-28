@@ -1,4 +1,4 @@
-@import './root.css';
+@import  '../base/root.css';
 
 .card-group {
     max-width: 1200px;

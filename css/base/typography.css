@@ -26,6 +26,7 @@
     font-size:var(--fs-3);
     font-family: var(--font-family);
     font-weight: 500;
+    padding: 15px;
     color: var(--dark-blue)
 }
 
@@ -36,26 +37,9 @@
     color: var(--dark-blue);
 }
 
-.plan-title p {
-    color: var(--dark-blue);
-}
-
-.card-item h2,
-p {
+h2,p {
     padding: 5px;
-}
-
-.card-title {
-    padding: 15px;
-    font-size: var(--fs-3);
-}
-
-.card-text {
-    font-size: var(--fs-4);
-    font-family: var(--font-family);
-    font-weight: 300;
     color: var(--dark-blue);
-    padding: 5px;
 }
 
 .testimonial-text {

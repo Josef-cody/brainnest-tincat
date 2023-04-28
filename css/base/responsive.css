@@ -277,4 +277,8 @@
     .signup-header {
         height: auto;
     }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
