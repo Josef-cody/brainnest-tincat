@@ -43,7 +43,7 @@
     border-left: 1px solid gray;
 }
 
-.side-bar li {
+.side-bar a {
     text-align: start;
     padding: 10px;
     font-weight: 500;
