@@ -19,3 +19,7 @@ a {
 header {
     background-color: var(--dark-blue);
 }
+
+html {
+    scroll-behavior: smooth;
+}
