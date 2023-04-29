@@ -3,7 +3,7 @@
 /* sign up page */
 .signup-body {
     background: url(../../images/cat-img.jpg);
-    background-size: cover;
+    background-size:auto
     background-repeat: no-repeat;
     background-position: center;
 }

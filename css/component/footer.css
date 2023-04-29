@@ -2,7 +2,7 @@
 
 /* footer */
 .footer {
-    position: relative;
+    position: absolute;
     bottom: -1px;
     background-color: var(--dark-blue);
     line-height: 4rem;
