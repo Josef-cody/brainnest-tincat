@@ -23,6 +23,7 @@
 .blog-img-container {
     width: 90%;
     padding: 1rem;
+    margin: auto;
 }
 
 .blog-img {

@@ -7,22 +7,19 @@
     height: 50vh;
     max-width: 1200px;
     margin: auto;
+    margin-top: 4rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .hero-text-container {
-    padding: 5rem;
-}
-
-.hero-text-container button {
-    float: left;
-    margin-top: 3rem;
+    padding: 3rem;
 }
 
 .hero-img-container {
     filter: drop-shadow(5px 5px 0px white);
+    padding: 3rem;
 }
 
 .hero-img {
@@ -32,15 +29,13 @@
 .plan-container {
     display: flex;
     justify-content: center;
-}
-
-.plan {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     max-width: 1200px;
     margin: auto;
 }
+
 
 .plan-title {
     padding: 35px;

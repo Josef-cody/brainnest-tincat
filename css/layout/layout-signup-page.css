@@ -9,7 +9,7 @@
 }
 
 .signup-container {
-    height: 55vh;
+    height: max-content;
     max-width: 1200px;
     margin: 8rem auto;
     display: flex;

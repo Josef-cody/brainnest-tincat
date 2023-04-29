@@ -1,8 +1,11 @@
-@import  '../base/root.css';
+@import '../base/root.css';
 
 /* footer */
 .footer {
+    position: relative;
+    bottom: -1px;
     background-color: var(--dark-blue);
     line-height: 4rem;
     color: var(--blue-white);
+    width: 100vw;
 }
