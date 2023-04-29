@@ -12,6 +12,7 @@
     }
 
     .hero-img {
+        width: 80vw;
         margin-top: 10rem;
         margin-bottom: -5rem;
     }
@@ -277,6 +278,7 @@
     .signup-header {
         height: auto;
     }
+
     .container {
         display: flex;
         flex-wrap: wrap;
