@@ -1,4 +1,4 @@
-@import  '../base/root.css';
+@import '../base/root.css';
 
 .card-group {
     max-width: 1200px;
@@ -27,9 +27,5 @@
     border-radius: 20px;
     border: 1px solid var(--light-blue);
     margin-top: 1rem;
-}
-
-.card-img:hover {
-    transform: scale(1.2);
     box-shadow: 3px 3px 10px var(--dark-blue);
 }
