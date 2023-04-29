@@ -11,6 +11,10 @@
     font-weight: var(--font-weight);
 }
 
+body {
+    background-color: var(--green-white);
+}
+
 a {
     color: var(--dark-blue);
     cursor: pointer;

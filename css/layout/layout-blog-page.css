@@ -1,8 +1,5 @@
 @import '../base/root.css';
 
-.blog-body {
-    background-color: var(--green-white);
-}
 
 .container {
     display: flex;
